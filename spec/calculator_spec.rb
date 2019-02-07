@@ -20,7 +20,7 @@ RSpec.describe Calculator do
 		end
 	end
 	describe "#subtract"
-		it "returns the resujlt of param 1 minus param 2" do
+		it "returns the result of param 1 minus param 2"do
 			calculator = Calculator.new
 			expect(calculator.subtract(10, 6)).to eql(4)
 		end
