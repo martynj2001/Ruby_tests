@@ -13,20 +13,20 @@ RSpec.describe Calculator do
 			expect(calculator.add(5,2,3)).to eql(10)
 		end	
 	end
-	describe "#multiply"
+	describe "#multiply" do
 		it "returns the product of two numbers" do
 			calculator = Calculator.new
 			expect(calculator.multiply(5,5)).to eql(25)	
 		end
 	end
-	describe "#subtract"
-		it "returns the result of param 1 minus param 2"do
+	describe "#subtract" do
+		it "returns the result of param 1 minus param 2" do
 			calculator = Calculator.new
 			expect(calculator.subtract(10, 6)).to eql(4)
 		end
 	end
-	describe "#divide"
-		it "returns the division of param 1 by param 2"
+	describe "#divide" do
+		it "returns the division of param 1 by param 2" do
 			calculator = Calculator.new
 			expect(calculator.divide(4, 2)).to eql(2)
 		end
